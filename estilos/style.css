@@ -8,3 +8,64 @@
   --fundo-card
 */
 
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+
+/*Variaveis do sistema*/
+
+:root {
+    --fundo-principal: #f5f5f5 ;
+    --texto: #222222 ;
+    --texto-inverso: #ffffff;
+    --destaque: #0077ff;
+    --destaque-inverso: #66bbff;
+    --fundo-card: #ffffff;
+}
+
+body {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    line-height: 1.5em;
+    background-color: var(--fundo-principal);
+    color: var(--texto);
+}
+
+header {
+    background-color: var(--destaque);
+    color: var(--texto);
+    padding: 10px;
+    /*Colocando o header colado na direita*/
+    display: flex;
+    justify-content: flex-end;
+    align-content: center;
+}
+
+/*Configurações da lista não ordenada*/
+nav#menu ul {
+    /*Usando flexbox para deixar um item do lado do outro*/
+    display: flex;
+    list-style: none;
+    /*Dando um espaço entre os itens*/
+    gap: 10px;
+}
+
+/*Configurações dos itens*/
+
+nav#menu a {
+    text-decoration: none;
+    color: var(--texto-inverso);
+    font-weight: 600;
+    padding: 12px 15px;
+    border-radius: 5px;
+    transition: background-color 0.4s, color 0.4s;
+}
+
+
+nav#menu a:hover {
+    background-color: var(--destaque-inverso);
+    color: var(--destaque);
+}
+
