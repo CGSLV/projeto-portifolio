@@ -2,8 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="b7e720ae-7b57-40d1-9cce-73a54f3782e9" name="Changes" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/projeto-portifolio.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/projeto-portifolio.iml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/estilos/style.css" beforeDir="false" afterPath="$PROJECT_DIR$/estilos/style.css" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/index.html" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -65,6 +65,7 @@
       <workItem from="1772774927233" duration="2826000" />
       <workItem from="1772826795215" duration="236000" />
       <workItem from="1772827239959" duration="300000" />
+      <workItem from="1772837868866" duration="3349000" />
     </task>
     <servers />
   </component>
