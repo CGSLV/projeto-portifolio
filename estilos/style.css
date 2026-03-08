@@ -41,6 +41,10 @@ header {
     display: flex;
     justify-content: flex-end;
     align-content: center;
+    position: sticky;
+    top: 0;
+/*    O iframe se sobresai no header, mude o z-index para ele sobrepor o iframe*/
+    z-index: 1;
 }
 
 /*Configurações da lista não ordenada*/
